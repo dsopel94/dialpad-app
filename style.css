@@ -1,0 +1,72 @@
+.header {
+	text-align: center;
+	margin-bottom: 25px;
+	font-family: 'Cedarville Cursive', cursive;
+	font-size: 30pt;
+}
+
+.phone-number {
+	margin-left: 10%
+	margin-bottom: 50px;
+	font-family: Arial;
+	font-size: 25pt;
+	max-width: 300px;
+	text-align: center;
+}
+
+.row {
+	margin-bottom: 4%;
+}
+
+.col-4 {
+	text-align: center;
+}
+
+.container-fluid {
+	max-width: 300px;
+}
+
+.btn-sm {
+	background-color: #A6E5F3;
+	border: 1px solid black;
+	width: 80%;
+}
+
+.btn-sm:hover {
+	box-shadow: 0 7px 15px blue;
+	transition: background .1s linear 0s, opacity .01s linear .1s;
+}
+
+.btn-circle {
+	border-radius: 75%;
+	padding: 10px;
+}
+
+.dial {
+	margin-top: 25px;
+	margin-left: 10%;
+}
+
+.dial:hover {
+	box-shadow: 0 7px 15px darkgreen;
+}
+
+.alert {
+	margin-top: 25px;
+}
+
+.alpha {
+	display: block;
+}
+
+.hidden {
+	opacity: 0;
+}
+
+.phone-number {
+	display: inline-block;
+}
+
+.span12 {
+ margin-bottom: 50px;
+}

@@ -1,0 +1,78 @@
+<DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive" rel="stylesheet">
+	<title></title>
+</head>
+<body>
+<div class="header">Dial A Number</div>
+<div class="container-fluid">
+	<div class ="span12">
+		<span class="phone-number"></span>
+	</div>
+</div>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-4">
+			<button class="btn-sm btn-circle" value="1">
+			<div class="numeral">1</div><div class="hidden">ABC</div>
+			</button>
+		</div>
+		<div class="col-4">
+			<button class="btn-sm btn-circle" value="2">2<div class="alpha">ABC</div></button>
+		</div>
+		<div class="col-4">
+			<button class="btn-sm btn-circle" value="3">3<div class="alpha">DEF</div></button>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-4">
+			<button class="btn-sm btn-circle" value="4">4<div class="alpha">GHI</div></button>
+		</div>
+		<div class="col-4">
+			<button class="btn-sm btn-circle" value="5">5<div class="alpha">JKL</div></button>
+		</div>
+		<div class="col-4">
+			<button class="btn-sm btn-circle" value="6">6<div class="alpha">MNO</div></button>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-4">
+			<button class="btn-sm btn-circle" value="7">7<div class="alpha">PQRS</div></button>
+		</div>
+		<div class="col-4">
+			<button class="btn-sm btn-circle" value="8">8<div class="alpha">TUV</div></button>
+		</div>
+		<div class="col-4">
+			<button class="btn-sm btn-circle" value="9">9<div class="alpha">WXYZ</div></button>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-4">
+			<button class="btn-sm btn-circle" value="0">0<div class="hidden">ABC</div></button>
+		</div>
+		<div class="col-4">
+			<button class="btn-sm btn-circle" id="clear" value="">Clear<div class="hidden">ABC</div></button>
+		</div>
+		<div class="col-4">
+			<button class="btn-sm btn-circle back" value="">Back<div class="hidden">ABC</div></button>
+		</div>
+<div class="container-fluid">
+	<div class="span12">
+		<button class="btn-sm dial">DIAL</button>
+		<div class="alert alert-success hidden">
+		</div>
+	</div>
+</div>
+	</div>
+</div>
+<script src="js.js" type="text/javascript"></script>
+</body>
+</html>
