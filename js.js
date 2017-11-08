@@ -27,7 +27,7 @@ function handleBack() {
 function handleDial() {
 	$('.dial').on('click', function() {
 		$('.alert-success').removeClass('hidden')
-		$('.alert-success').html("You have dialed " + '<strong>' + phoneNum + '</strong>')
+		$('.alert-success').html("You dialed " + '<strong>' + phoneNum + '</strong>')
 		phoneNum = "";
 		$('.phone-number').html('')
 
