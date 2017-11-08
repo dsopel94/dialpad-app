@@ -45,6 +45,7 @@
 .dial {
 	margin-top: 25px;
 	margin-left: 10%;
+	background-color: lightgreen;
 }
 
 .dial:hover {

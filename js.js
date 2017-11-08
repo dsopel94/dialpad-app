@@ -8,7 +8,7 @@ function handleClick() {
 	})
 }
 
-function handleClear() {
+function handleClear(e) {
 	$('#clear').on('click', function() {
 		phoneNum = "";
 		$('.phone-number').html(phoneNum)
