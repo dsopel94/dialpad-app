@@ -28,9 +28,11 @@ function handleDial() {
 	$('.dial').on('click', function() {
 		$('.alert-success').removeClass('hidden')
 		$('.alert-success').html("You dialed " + '<strong>' + phoneNum + '</strong>')
+		if (phoneNum.length == 10) {
+			$('.alert-success').html("You dialed " + '<strong>(' + phoneNum.substring(0,3) + ') ' +  phoneNum.substring(3,6) + '-' + phoneNum.substring(6,phoneNum.length) + '</strong>')
+		}
 		phoneNum = "";
 		$('.phone-number').html('')
-
 	})
 }
 
